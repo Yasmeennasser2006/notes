@@ -1,4 +1,4 @@
-*{ 
+/* *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,30 @@ background: linear-gradient(
 );
     font-size:larger;
     
+} */
+ *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;  
+    min-height: 100vh;        
+    font-size: larger;
+    background: linear-gradient(
+        40deg,
+        #0f2e1d 0%,
+        #1f4f2c 50%,
+        #3a5328 100%
+    );
+
+    color: 0f2e1d;
+    padding: 20px; /* مسافة من الحواف للشاشات الصغيرة */
+}
+
 
 #y1 {
     border: 3px solid darkolivegreen;
