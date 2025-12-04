@@ -1,103 +1,78 @@
-/* *{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
- 
-    margin-top: 150px;
-    margin-left: 600px;
-    display: flex;
-background: linear-gradient(
-    40deg,
-    #0f2e1d,
-    #3a5328
-);
-    font-size:larger;
-    
-} */
- *{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  font-size: larger;
+  background: linear-gradient(40deg, #0f2e1d 0%, #1f4f2c 50%, #3a5328 100%);
+
+  color: 0f2e1d;
+  padding: 20px;
 }
-
-body{
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;  
-    min-height: 100vh;        
-    font-size: larger;
-    background: linear-gradient(
-        40deg,
-        #0f2e1d 0%,
-        #1f4f2c 50%,
-        #3a5328 100%
-    );
-
-    color: 0f2e1d;
-    padding: 20px; /* مسافة من الحواف للشاشات الصغيرة */
-}
-
 
 #y1 {
-    border: 3px solid darkolivegreen;
-    border-radius: 15px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 350px;
-    display: inline-block;
+  border: 3px solid darkolivegreen;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 350px;
+  display: inline-block;
 }
 
-.y2 h1{
-    padding-left: 5px;
-    color: white;
-    margin-bottom: 20px;
-    text-align: center;
+.y2 h1 {
+  padding-left: 5px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.y2 h1:hover{
-    color: peru;
+.y2 h1:hover {
+  color: peru;
 }
 
 .y3 {
-    border: 3px solid darkolivegreen;
-    border-radius: 100px;
-    padding: 15px 30px;
-    background-color: white;
-    width: 300px;
-    text-align: center;
-    margin: 0 auto;
+  border: 3px solid darkolivegreen;
+  border-radius: 100px;
+  padding: 15px 30px;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .y3 p {
-    margin-bottom: 15px;
-    color: #333;
+  margin-bottom: 15px;
+  color: #333;
 }
 
 .inputs {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .y3 input {
-    padding: 8px 12px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .y3 button {
-    background-color: peru;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: 20px;
-    height: 40px;
-    font-size: 20px;
+  background-color: peru;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 20px;
+  height: 40px;
+  font-size: 20px;
 }
 
 .y3 button:hover {
-    background-color: darkolivegreen;
+  background-color: darkolivegreen;
 }
